@@ -1,0 +1,201 @@
+body{
+	margin:0;
+    display: flex;
+    flex-direction: column;
+    font-family: montserrat;
+    font-size: 18px;
+}
+.header--bck{
+    background: black;
+    color: white;
+}
+.pre--header{
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.caution{
+    font-weight: 700;
+}
+.header--body{
+    width: 80%;
+    margin: -15px auto;
+}
+.bar--charge{
+    width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(0.25turn, red 90%, white 10%);
+    border-radius: 10px;
+    border: none;
+    height: 25px;
+    display: flex;
+}
+.button{
+	margin: 0 auto;
+    font-weight: 800;
+    font-size: large;
+}
+.text--upper{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+	padding-bottom: 15px;
+}
+.caution--container{
+	padding: 10px auto;
+}
+.video{
+    border: 3px solid black;
+    width: 70%;
+	margin: 20px auto;
+}
+.titular-body{
+	padding-top: 25px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 20px;
+}
+.felicidades{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 35px;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+}
+.contarte{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30px;
+	line-height: 1.4em;
+}
+.body--container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.ocultar{
+	background-color: #1A2437;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+img{
+    width: 40%;
+    margin: 0 auto;
+	padding-bottom: 35px;
+}
+#box_hotmart{
+    margin: 0 auto;
+    margin-bottom: 30px;
+	text-align: center;
+    justify-content: center;
+}
+.footer{
+    background: black;
+    color: rgb(150, 150, 150);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 25px;
+}
+.footer--box{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+.footer--text{
+    margin-top: -10px;
+}
+@media screen and (max-width: 700px){
+.header{
+	padding: 15px;
+}
+h1{
+    margin-top: -10px;
+}
+.pre--header{
+	text-align: center;
+	background-color: red;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-size: 15px;
+	line-height: 1.4em;
+}
+.caution--container{
+    padding-top: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 18px;
+	line-height: 1.4em;	
+}
+.header--body{
+    width: 95%;
+}
+.bar--charge{
+    width: 95%;
+}
+.text--upper{
+    width: 95%;
+}
+.bar--text--{
+	font-size: 18px;
+	line-height: 1.5em;
+}
+.titular-body{
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+.felicidades{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30px;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+}
+.contarte{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+	line-height: 1.4em;
+}
+.video{
+    width: 95%;
+}
+.ocultar{
+	background-color: #1A2437;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.body--container{
+    width: 95%;
+}
+img{
+    width: 95%;
+}
+#box_hotmart{
+    width: 95%;
+}
+.footer--box{
+    margin-top: 20px;
+    width: 95%;   
+    padding-top: 20px;
+}
+}
