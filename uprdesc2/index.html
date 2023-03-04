@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+	<script src="https://kit.fontawesome.com/40cee48da4.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>down2</title>
+</head>
+
+    <!-- Header -->
+   
+    <!-- Body UPPER -->
+    <body>
+	
+	<div class="padd"><div class="body--container-upper"><h1 style="margin-bottom: 0px;">¡DESCUENTO ESPECIAL!</h1><h2 class="titu">Aprovecha Ahora <strong>FORTALÉCETE</strong> + <strong>SUEÑO TRANQUILO</strong>+ <strong>2 Regalos</strong> Adicionales MÁS...</h2>	</div><img src="dolar.webp" alt="img-maestría" class="dolar"><h3 style="text-align: center;">¡<mark>$10 Dólares</mark> de descuento!</h3>
+   
+    <!-- Body LOWER -->
+    <div class="body--container-lower1"><div id="temporizador" class="tempo"></div>
+    <script>
+      var tiempoRestante = 5 * 60; // segundos
+
+      var temporizador = setInterval(function() {
+        var minutos = Math.floor(tiempoRestante / 60);
+        var segundos = tiempoRestante % 60;
+        document.getElementById("temporizador").innerHTML = minutos + ":" + (segundos < 10 ? "0" : "") + segundos;
+        tiempoRestante--;
+        if (tiempoRestante < 0) {
+          clearInterval(temporizador);
+          window.close();
+        }
+      }, 1000);
+    </script><img src="fortasueñ.webp" alt="img-maestría" class="imgfull"></div>
+    <div class="center"><div class="body--lower--lower"><h4>Añade Este Paquete Completo A Tu Orden Ahora Mismo <span style="font-weight: bold; text-align: center; color: green;">Por Solo $29</span></h4><img src="flecha.webp" alt="img-flecha" class="img-flecha"></div></div></div>
+    
+	<!-- HOTMART - Upsell Widget -->
+		<div id="box_hotmart"></div>
+		<script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
+
+		<script>
+		opts = {
+		key: 'USL-93807-274811-f81113ddcfd593b0202feb2c6657609a',
+		width: '650' ,
+		height: '420'
+		};
+		Upsell.Widget.show(opts);
+		</script>
+	<!-- HOTMART - Upsell Widget [end] -->
+
+</body>
+
+<!-- Footer -->
+    <footer ><div class="footer"><div class="footer--box"><p class="footer--text">Copyright 2022 - PROTOCOLO RENOVAR® Todos los derechos reservados.</p><p class="footer--text"></p><p class="footer--text"></p></div></div></div></footer>
+
+
+</html>
